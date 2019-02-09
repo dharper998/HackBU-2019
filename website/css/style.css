@@ -89,6 +89,18 @@ body{
 	margin:0;
 }
 .body div#featured input{
+	background: no-repeat;
+	border:0;
+    height:48px;
+    width:216px;
+	font-family: 'RokkittRegular';
+	color:#666;
+	font-size:30px;
+	margin:28px 0 0 125px;
+	cursor:pointer;
+	outline:none;
+}
+.body div#featured input#search{
 	background:url(../images/interface.jpg) no-repeat;
 	border:0;
     height:48px;
