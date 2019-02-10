@@ -26,4 +26,3 @@ def doStuff(input):
     publicationData = getPublications(articleData)
     finalPublications = fetchPubs(publicationData)
     return finalPublications
-    #print(finalPublications)
