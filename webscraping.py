@@ -22,7 +22,8 @@ def search(input):
         title = file.readline()
         url = file.readline()
         url = url.strip()
-        url = url[4:]
+        length = len("https://scholar.google.com/")
+        url = url[length + 3:]
     return url
 
 def main():
