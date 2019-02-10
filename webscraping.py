@@ -24,6 +24,7 @@ def search(input):
         url = url.strip()
         length = len("https://scholar.google.com/")
         url = url[length + 3:]
+        #print(url)
     return url
 
 def main():
