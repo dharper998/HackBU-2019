@@ -189,6 +189,16 @@ body{
 	font-weight:normal;
 	text-shadow: 0 1px 0 #fcfcfc;
 }
+.body ul#articles li a{
+	font-size:16px;
+	text-decoration:none;
+	color:#5e5e5e;
+	font-family: var(--font-name);
+	outline:none;
+}
+.body ul#articles li a:hover{
+	color:#0a915f;
+}
 .body h3{
 	font-family: var(--font-name);
 	font-size:16px;
@@ -215,14 +225,10 @@ body{
     padding:0;
 	overflow:hidden;
 }
-.body ul li:first-child{
-	background:none;
-	padding:0 0 30px;
-}
 .body ul li{
 	overflow:hidden;
-	background:url(../images/separator.jpg) no-repeat center top;
-	padding:30px 0;
+	background: no-repeat center top;
+	padding: 5px 0px;
 }
 .body ul li div.featured{
 	background:url(../images/interface.jpg) no-repeat 0 -68px;
