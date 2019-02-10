@@ -1,3 +1,4 @@
+<<<<<<< HEAD:website/css/style.css
 /* Website template by freewebsitetemplates.com */
 :root{
 	--font-name: 'Bookman';
@@ -113,7 +114,7 @@ body{
     width:216px;
 	font-family: var(--font-name);
 	font-style: normal;
-	color:#fff;
+	color:#d8d8d8;
 	font-size:30px;
 	margin:28px 0 0 125px;
 	cursor:pointer;
@@ -386,3 +387,4 @@ body{
 	background:url(../images/icons.gif) no-repeat 0 -96px;
 	margin:0 0 0 73px;
 }
+>>>>>>> b6c362d7d081bb56670c82b8eb1ec1ca87a392fe:static/styles/style.css
