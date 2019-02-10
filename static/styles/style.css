@@ -70,12 +70,7 @@ body{
 	padding:0 10px;
 	overflow:hidden;
 }
-.body div#featured{
-	background:url(../images/medical.png) no-repeat right top;
-	height:448px;
-	padding:0 0 17px;
-}
-.body div#featured h3{
+.body div h4{
 	color:#0a915f;
 	font-size:36px;
 	font-family: var(--font-name);
@@ -83,6 +78,11 @@ body{
 	width:490px;
 	padding:100px 0 0;
 	font-weight:normal;
+}
+.body div#featured{
+	background:url(../images/medical.png) no-repeat right top;
+	height:448px;
+	padding:0 0 17px;
 }
 .body div#featured p{
 	width:480px;
