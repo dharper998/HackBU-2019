@@ -1,4 +1,7 @@
 /* Website template by freewebsitetemplates.com */
+:root{
+	--font-name: 'Bookman';
+}
 /*------------------------- Layout styles ------------------------*/ 
 body{
 	margin:0;
@@ -8,7 +11,8 @@ body{
 	background:url(../images/bg-header.jpg) no-repeat center top;
 }
 
-/*------------------------- Font ------------------------*/ 
+/*------------------------- Font ------------------------*/
+/* 
 @font-face {
     font-family: 'RokkittRegular';
     src: url('rokkitt-regular-webfont.eot');
@@ -19,6 +23,7 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 /*------------------------- Header ------------------------*/ 
 .header{
@@ -47,13 +52,13 @@ body{
 	margin:0 0 0 63px;
 }
 .header ul li.selected a,.header ul li a:hover{
-	color:#10d53e;
+	color:#0a915f;
 }
 .header ul li a{
 	font-size:16px;
 	text-decoration:none;
 	color:#5e5e5e;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	outline:none;
 }
 
@@ -70,9 +75,9 @@ body{
 	padding:0 0 17px;
 }
 .body div#featured h3{
-	color:#10d53e;
+	color:#0a915f;
 	font-size:36px;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	margin:0 0 30px;
 	width:490px;
 	padding:100px 0 0;
@@ -81,7 +86,7 @@ body{
 .body div#featured p{
 	width:480px;
 	color:#5d5d5d;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	font-size:16px;
 	line-height:25px;
 	text-shadow: 0 1px 0 #fcfcfc;
@@ -93,9 +98,10 @@ body{
 	border:0;
     height:48px;
     width:216px;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
+	font-style: italic;
 	color:#666;
-	font-size:30px;
+	font-size:20px;
 	margin:28px 0 0 125px;
 	cursor:pointer;
 	outline:none;
@@ -105,7 +111,8 @@ body{
 	border:0;
     height:48px;
     width:216px;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
+	font-style: normal;
 	color:#fff;
 	font-size:30px;
 	margin:28px 0 0 125px;
@@ -150,7 +157,7 @@ body{
 	width:258px;
 	text-align:justify;
 	color:#828081;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	margin:17px 0 0 10px;
 	line-height:20px;
 	font-size:14px;
@@ -164,11 +171,11 @@ body{
 	width:auto;
 }
 .body ul.blog li div a:hover{
-	color:#10d53e;
+	color:#0a915f;
 }
 .body ul.blog li div a{
 	color:#606060;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	font-style:italic;
 	text-decoration:none;
 	padding:98px 0 0;
@@ -182,7 +189,7 @@ body{
 	text-shadow: 0 1px 0 #fcfcfc;
 }
 .body h3{
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	font-size:16px;
 	font-weight:bold;
 	color:#636363;
@@ -190,7 +197,7 @@ body{
 	line-height:21px;
 }
 .body p{
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	font-size:16px;
 	text-align:justify;
 	color:#636363;
@@ -255,7 +262,7 @@ body{
 	clear:both;
 	display:block;
 	font-size:13px;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	text-decoration:none;
 	color:#8a8889;
 	font-weight:bold;
@@ -273,13 +280,13 @@ body{
 	margin:0;
 	font-size:20px;
 	font-weight:bold;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	color:#f28220;
 	line-height:22px;
 }
 .body ul li div p{
 	line-height:22px;
-	font-family: 'RokkittRegular';
+	font-family: var(--font-name);
 	font-size:14px;
 	color:#5D5D5D;
 	padding:0 0 90px;
@@ -326,7 +333,7 @@ body{
 	float:left;
 }
 .footer ul li a:hover{
-	color:#10d53e;
+	color:#0a915f;
 }
 .footer ul li a{
 	border-width: 1px;
