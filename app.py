@@ -6,10 +6,13 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/search", methods=['POST'])
-def search():
+@app.route("/", methods=['POST'])
+def index_post():
     input = request.form['Medical']
     h1.main(input)
+
+@app.route("/search.html")
+def search():
     return render_template("search.html")
 
 if __name__=="__main__":
