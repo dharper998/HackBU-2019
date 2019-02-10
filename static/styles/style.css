@@ -124,7 +124,7 @@ body{
 	list-style:none;
 	margin:40px 0 0;
 	padding:0 0 50px;
-	background:url(../images/separator.jpg) no-repeat center top;
+	background:no-repeat center top;
 	overflow:hidden;
 }
 .body ul.blog li:first-child{
@@ -215,17 +215,18 @@ body{
     padding:0;
 	overflow:hidden;
 }
-.body ul li:first-child{
-	background:none;
-	padding:0 0 30px;
-}
 .body ul li{
 	overflow:hidden;
-	background:url(../images/separator.jpg) no-repeat center top;
+	background: no-repeat center top;
 	padding:30px 0;
 }
 .body ul li a{
 	padding: 5px;
+	font-size:16px;
+	text-decoration:none;
+	color:#5e5e5e;
+	font-family: var(--font-name);
+	outline:none;
 }
 .body ul li div.featured{
 	background:url(../images/interface.jpg) no-repeat 0 -68px;
